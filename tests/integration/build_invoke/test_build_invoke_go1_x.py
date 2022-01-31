@@ -15,6 +15,13 @@ class BuildInvoke_go1_x_cookiecutter_aws_sam_hello_golang(BuildInvokeBase.BuildI
     use_container = False
     directory = "go1.x/cookiecutter-aws-sam-hello-golang"
 
+class BuildInvoke_go1_x_cookiecutter_aws_sam_eventbridge_hello_golang(BuildInvokeBase.BuildInvokeBase):
+    use_container = False
+    directory = "go1.x/cookiecutter-aws-sam-eventbridge-hello-golang"
+
+class BuildInvoke_go1_x_cookiecutter_aws_sam_eventbridge_schema_app_golang(BuildInvokeBase.BuildInvokeBase):
+    use_container = False
+    directory = "go1.x/cookiecutter-aws-sam-eventbridge-schema-app-golang"
 
 class BuildInvoke_go1_x_cookiecutter_aws_sam_hello_step_functions_sample_app(BuildInvokeBase.BuildInvokeBase):
     use_container = False
